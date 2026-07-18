@@ -214,7 +214,16 @@ def parse_args() -> argparse.Namespace:
         default=Path("artifacts/narration.mp3"),
     )
     parser.add_argument("--voice", default=None)
-    parser.add_argument("--rate", default=None)
+    parser.add_argument(
+        "--rate",
+        nargs="?",
+        default=None,
+        const=None,
+        help=(
+            "Speaking-rate adjustment for edge-tts. If --rate is provided "
+            "without a value, the narration JSON default_rate is used."
+        ),
+    )
     return parser.parse_args()
 
 
