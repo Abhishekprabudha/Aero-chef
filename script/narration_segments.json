@@ -8,7 +8,7 @@
       "start": 0.0,
       "end": 25.0,
       "title": "Operations control dashboard",
-      "text": "Welcome to AeroChef Studio, an AI-enabled platform built for the complexity of inflight culinary operations. The operations control dashboard gives teams a live view of active recipes, approval queues, audit readiness, quality exceptions, upcoming flight trials, and average meal cost. Instead of managing these decisions across spreadsheets, emails, and disconnected systems, AeroChef brings the entire culinary lifecycle into one governed workspace."
+      "text": "Welcome to AeroChef Studio, an AI-enabled platform built for the complexity of inflight culinary operations. The operations control dashboard gives teams a live view of active recipes, approval queues, audit readiness, quality exceptions, upcoming flight trials, and average meal cost. AeroChef brings the entire culinary lifecycle into one governed workspace."
     },
     {
       "start": 25.0,
@@ -38,7 +38,7 @@
       "start": 126.0,
       "end": 148.0,
       "title": "Meal tray engineering",
-      "text": "Meal Tray Engineering moves beyond the recipe to the complete passenger service unit. Teams select an aircraft and cabin profile, define the tray configuration, and assemble the main course, sides, accompaniments, and service components. AeroChef calculates engineered tray weight, estimated tray cost, and operational fit, helping teams balance passenger experience with loading, handling, and galley constraints."
+      "text": "Meal Tray Engineering moves beyond the recipe to the complete passenger service unit. Teams select an aircraft and cabin profile, define the tray configuration, and assemble the main course, sides, accompaniments, and service components. AeroChef calculates engineered tray weight, estimated tray cost, and operational fit, helping teams balance passenger experience."
     },
     {
       "start": 148.0,
@@ -56,13 +56,13 @@
       "start": 198.0,
       "end": 228.0,
       "title": "Global logistics master data",
-      "text": "AeroChef also maintains the global logistics masters behind every meal. Airline records define commercial and service contexts. Catering station profiles capture local capabilities, lead times, currencies, markups, and operating constraints. Supplier masters connect ingredients to approved sources and terms. Most importantly, cabin profiles model aircraft type, equivalent altitude, humidity, ambient noise, cabin class, and flight duration, allowing the same culinary design to be evaluated differently for different aircraft and routes."
+      "text": "AeroChef also maintains the global logistics masters behind every meal. Airline records define commercial and service contexts. Catering station profiles capture local capabilities, lead times, currencies, markups, and operating constraints. Supplier masters connect ingredients to approved sources and terms. Most importantly, cabin profiles model aircraft type, equivalent altitude, humidity, ambient noise, cabin class, and flight duration, allowing the same culinary design to be evaluated."
     },
     {
       "start": 228.0,
       "end": 263.0,
       "title": "Aero-Culinary Copilot",
-      "text": "The Aero-Culinary Copilot gives users a conversational way to interrogate this governed data. A developer can ask for recipe risks, production implications, or recommended adjustments, and the assistant responds using the selected recipe and operational context. It does not replace the chef or approver. It accelerates analysis, surfaces the factors behind a recommendation, and makes the reasoning visible for human review."
+      "text": "The Aero-Culinary Copilot gives users a conversational way to interrogate governed culinary and operational data. A developer can ask about recipe risks, production implications, cost or yield impact, and recommended adjustments, and the assistant responds using the selected recipe, cabin profile, and operating context. It does not replace the chef, food technologist, or approver. Instead, it accelerates analysis, identifies dependencies, surfaces the evidence behind each recommendation, and makes the reasoning visible and traceable for human review. This creates faster, more consistent decisions while preserving expert judgment, governance, and accountability."
     },
     {
       "start": 263.0,
