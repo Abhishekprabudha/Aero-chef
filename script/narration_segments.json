@@ -74,13 +74,13 @@
       "start": 297.0,
       "end": 328.0,
       "title": "Altitude reformulation",
-      "text": "Altitude Reformulation turns sensory analysis into a controlled, evidence-based engineering recommendation. The platform can propose mathematically adjusted salt, moisture, sauce, acidity, aroma, texture, and reheating parameters for the selected aircraft environment. Each recommendation remains linked to the original recipe, quantifies the expected sensory and operational impact, and includes a clear rationale behind every proposed change. Adjustments can then be validated through structured kitchen trials, sensory panels, costing checks, and approval workflows."
+      "text": "Altitude Reformulation turns sensory analysis into a controlled, evidence-based engineering recommendation. The platform can propose mathematically adjusted salt, moisture, sauce, acidity, aroma, texture, and reheating parameters for the selected aircraft environment. Each recommendation remains linked to the original recipe, quantifies the expected sensory and operational impact, and includes a clear rationale behind every proposed change. Adjustments can then be validated through structured kitchen trials."
     },
     {
       "start": 328.0,
       "end": 385.4,
       "title": "Grounded recommendation and conclusion",
-      "text": "The final demonstration shows how the Copilot answers a practical high-altitude question in seconds. It summarizes the effect of lower pressure and dry cabin air, identifies the recipe elements most exposed to flavor loss, and proposes targeted actions rather than a generic seasoning increase. Because every recommendation is grounded in recipe, yield, supplier, station, and cabin data, the output is actionable for chefs, engineers, operations, and commercial teams. AeroChef transforms inflight catering from a fragmented sequence of handoffs into a precise, scalable, and continuously improving operating system. It protects culinary intent, improves cost and yield control, reduces waste, strengthens compliance, and helps deliver a consistent passenger experience from the test kitchen to thirty-five thousand feet. Thank you for watching."
+      "text": "The final demonstration shows how the Copilot answers a practical high-altitude question in seconds. It summarizes the effect of lower pressure and dry cabin air, identifies the recipe elements most exposed to flavor loss, and proposes targeted actions rather than a generic seasoning increase. Because every recommendation is grounded in recipe, yield, supplier, station, and cabin data, the output is actionable for chefs, engineers, operations, and commercial teams. AeroChef transforms inflight catering from a fragmented sequence of handoffs into a precise, scalable, and continuously improving operating system. It protects culinary intent, improves cost and yield control, reduces waste, strengthens compliance, and helps deliver a consistent passenger experience from the test kitchen to thirty-five thousand feet with AI guardrails and its dynamic orchestration. Thank you for watching."
     }
   ]
 }
