@@ -1,0 +1,59 @@
+name: 01 - Generate narration MP3
+
+on:
+  workflow_dispatch:
+    inputs:
+      voice:
+        description: Microsoft neural voice used by edge-tts
+        required: true
+        default: en-US-AvaNeural
+        type: string
+      rate:
+        description: Speaking-rate adjustment
+        required: true
+        default: '-10%'
+        type: string
+
+permissions:
+  contents: read
+
+jobs:
+  narration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+
+      - name: Install FFmpeg and Python dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate time-aligned narration
+        run: |
+          python scripts/generate_narration.py \
+            --segments script/narration_segments.json \
+            --output artifacts/narration.mp3 \
+            --voice "${{ inputs.voice }}" \
+            --rate "${{ inputs.rate }}"
+
+      - name: Upload narration artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: narration-audio
+          path: |
+            artifacts/narration.mp3
+            artifacts/narration.srt
+            artifacts/generation_report.json
+          if-no-files-found: error
+          compression-level: 0
