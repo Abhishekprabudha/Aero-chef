@@ -62,13 +62,13 @@
       "start": 228.0,
       "end": 263.0,
       "title": "Aero-Culinary Copilot",
-      "text": "The Aero-Culinary Copilot gives users a conversational way to interrogate governed culinary and operational data. A developer can ask about recipe risks, production implications, cost or yield impact, and recommended adjustments, and the assistant responds using the selected recipe, cabin profile, and operating context. It does not replace the chef, food technologist, or approver. Instead, it accelerates analysis, identifies dependencies, surfaces the evidence behind each recommendation, and makes the reasoning visible and traceable for human review. This creates faster, more consistent decisions while preserving expert judgment, governance, and accountability."
+      "text": "The Aero-Culinary Copilot gives users a conversational way to interrogate governed culinary and operational data. A developer can ask about recipe risks, production implications, cost or yield impact, and recommended adjustments, and the assistant responds using the selected recipe, cabin profile, and operating context. It does not replace the chef, food technologist, or approver. Instead, it accelerates analysis, identifies dependencies, surfaces the evidence behind each recommendation, and makes the reasoning visible and traceable for human review. This creates faster, more consistent decisions."
     },
     {
       "start": 263.0,
       "end": 297.0,
       "title": "Sensory analysis",
-      "text": "In Sensory Analysis, the user selects a recipe and asks the platform to evaluate how sweetness, saltiness, acidity, aroma, texture, moisture, and spice perception may shift in the cabin. AeroChef combines the recipe specification with the chosen aircraft profile to identify likely sensory drift. The result highlights what may become muted, what may become harsh, and which attributes need protection during reheating and service."
+      "text": "In Sensory Analysis, the user selects a recipe and asks the platform to evaluate how sweetness, saltiness, acidity, aroma, texture, moisture, and spice perception may shift inside the aircraft cabin. AeroChef combines the recipe specification with the selected aircraft profile, altitude conditions, humidity, reheating method, and service context to identify likely sensory drift. The result highlights what may become muted, what may become overly sharp or harsh, and which flavour, texture, or moisture attributes must be protected during production, reheating, holding, and onboard service."
     },
     {
       "start": 297.0,
