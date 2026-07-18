@@ -68,13 +68,13 @@
       "start": 263.0,
       "end": 297.0,
       "title": "Sensory analysis",
-      "text": "In Sensory Analysis, the user selects a recipe and asks the platform to evaluate how sweetness, saltiness, acidity, aroma, texture, moisture, and spice perception may shift inside the aircraft cabin. AeroChef combines the recipe specification with the selected aircraft profile, altitude conditions, humidity, reheating method, and service context to identify likely sensory drift. The result highlights what may become muted, what may become overly sharp or harsh, and which flavour, texture, or moisture attributes must be protected during production, reheating, holding, and onboard service."
+      "text": "In Sensory Analysis, the user selects a recipe and asks the platform to evaluate how sweetness, saltiness, acidity, aroma, texture, moisture, and spice perception may shift inside the aircraft cabin. AeroChef combines the recipe specification with the selected aircraft profile, altitude conditions, humidity, reheating method, and service context to identify likely sensory drift. The result highlights what may become muted, what may become overly sharp or harsh, and which flavour, texture, or moisture attributes must be protected during production."
     },
     {
       "start": 297.0,
       "end": 328.0,
       "title": "Altitude reformulation",
-      "text": "Altitude Reformulation turns that analysis into a controlled engineering recommendation. The platform can propose mathematically adjusted salt, moisture, sauce, acid, aroma, and texture parameters for the selected aircraft environment. Recommendations remain linked to the original recipe, include the rationale behind every change, and can be routed through trials and approvals before becoming a production standard."
+      "text": "Altitude Reformulation turns sensory analysis into a controlled, evidence-based engineering recommendation. The platform can propose mathematically adjusted salt, moisture, sauce, acidity, aroma, texture, and reheating parameters for the selected aircraft environment. Each recommendation remains linked to the original recipe, quantifies the expected sensory and operational impact, and includes a clear rationale behind every proposed change. Adjustments can then be validated through structured kitchen trials, sensory panels, costing checks, and approval workflows."
     },
     {
       "start": 328.0,
