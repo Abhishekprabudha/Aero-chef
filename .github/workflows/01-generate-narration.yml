@@ -40,12 +40,15 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate time-aligned narration
+        env:
+          NARRATION_VOICE: ${{ inputs.voice }}
+          NARRATION_RATE: ${{ inputs.rate }}
         run: |
           python scripts/generate_narration.py \
             --segments script/narration_segments.json \
             --output artifacts/narration.mp3 \
-            --voice "${{ inputs.voice }}" \
-            --rate "${{ inputs.rate }}"
+            --voice "${NARRATION_VOICE}" \
+            --rate="${NARRATION_RATE}"
 
       - name: Upload narration artifact
         uses: actions/upload-artifact@v4
